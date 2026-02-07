@@ -23,7 +23,7 @@ const Hero: React.FC = () => {
           </h1>
           
           <p className="text-lg md:text-xl text-gray-400 mb-12 leading-relaxed max-w-3xl">
-            Se você já construiu um negócio, você possui um ativo que o mercado ignora: sua experiência real. Este é o relato de como transformei esse conhecimento em R$ 40 mil de liquidez direta para o meu CPF, através de um processo estratégico, lógico e replicável.
+            Este não é um roteiro de ganhos garantidos, mas o relato estratégico de como utilizei minha expertise acumulada para gerar R$ 40 mil de liquidez direta no CPF. Um processo lógico, replicável e focado em empresários que já possuem estrada.
           </p>
           
           <div className="flex flex-col md:flex-row items-center justify-center gap-6 mb-16">
@@ -31,13 +31,13 @@ const Hero: React.FC = () => {
               onClick={scrollToOffer}
               className="bg-[#60F2E9] hover:bg-[#4de0d7] text-black font-black py-5 px-10 rounded-2xl flex items-center justify-center transition-all duration-300 transform hover:scale-[1.03] active:scale-95 btn-glow text-lg"
             >
-              Quero aprender o processo dos 40.000 em 5 dias
+              Acessar o processo dos 40.000 em 5 dias
               <ArrowRight className="ml-2 w-6 h-6" />
             </button>
             
             <div className="flex items-center gap-2 text-[#60F2E9] text-[10px] font-bold tracking-widest uppercase opacity-80">
               <Lock className="w-4 h-4" />
-              <span>Relato Real. Sem promessas de ganho fácil.</span>
+              <span>Processo Estratégico Real</span>
             </div>
           </div>
 
@@ -60,7 +60,7 @@ const Hero: React.FC = () => {
           
           <div className="mt-16 max-w-3xl">
             <p className="text-gray-400 text-lg leading-relaxed italic">
-              "Isso não é sobre crescimento desenfreado de CNPJ. É sobre a dignidade de quem construiu o negócio e agora decide que o próprio CPF deve colher os frutos dessa inteligência acumulada."
+              "Isso não é sobre renda extra. É sobre transformar o ativo mais valioso que você já tem — sua inteligência — em liquidez pessoal imediata."
             </p>
           </div>
         </div>

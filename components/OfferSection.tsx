@@ -13,20 +13,20 @@ const OfferSection: React.FC = () => {
           Tenha em mãos o mapa que gerou <span className="text-gradient">R$ 40k em 5 dias.</span>
         </h3>
 
-        {/* Rationalization & Anti-Scam Block */}
+        {/* Anti-Scam & Rationalization Block */}
         <div className="grid md:grid-cols-2 gap-6 mb-12 text-left">
           <div className="p-6 bg-white/5 rounded-2xl border border-white/10 flex gap-4">
             <AlertCircle className="w-6 h-6 text-[#60F2E9] shrink-0" />
             <p className="text-sm text-gray-400 leading-relaxed">
-              <strong className="text-white block mb-1">Sem promessas vazias.</strong>
-              Isso não é renda extra ou fórmula mágica de internet. É um processo estratégico para empresários que já possuem estrada e querem criar liquidez pessoal com inteligência.
+              <strong className="text-white block mb-1">Isso não é uma fórmula mágica.</strong>
+              Não é renda extra e não é promessa de dinheiro fácil. É um processo estratégico para empresários que já construíram algo e agora precisam criar liquidez pessoal com inteligência.
             </p>
           </div>
           <div className="p-6 bg-white/5 rounded-2xl border border-white/10 flex gap-4">
             <Calendar className="w-6 h-6 text-[#60F2E9] shrink-0" />
             <p className="text-sm text-gray-400 leading-relaxed">
-              <strong className="text-white block mb-1">Por que 5 dias?</strong>
-              Este prazo representa o tempo exato de um ciclo tático de validação e oferta direta — sem depender de novos seguidores, anúncios complexos ou tráfego pago.
+              <strong className="text-white block mb-1">O prazo de 5 dias é lógico.</strong>
+              Este é o tempo de execução de um ciclo de validação, oferta e fechamento direto. Sem depender de tráfego complexo, construção de audiência do zero ou ferramentas caras.
             </p>
           </div>
         </div>
@@ -44,12 +44,12 @@ const OfferSection: React.FC = () => {
           
           <div className="flex flex-col items-center gap-6">
             {/* Self-selection Phrase */}
-            <p className="text-gray-400 text-xs md:text-sm max-w-md leading-relaxed italic">
+            <p className="text-gray-400 text-xs md:text-sm max-w-lg leading-relaxed italic border-l-2 border-[#60F2E9]/30 pl-4 py-1">
               "Esse conteúdo não é para quem está começando do zero. É para quem já construiu uma empresa e agora quer proteger o próprio CPF e a família."
             </p>
 
             <button className="w-full max-w-md bg-[#60F2E9] hover:bg-[#4de0d7] text-black font-black py-6 px-8 rounded-2xl flex items-center justify-center text-xl transition-all duration-300 transform hover:scale-[1.02] btn-glow">
-              SIM, QUERO ACESSAR AGORA
+              QUERO ACESSAR O PROCESSO
               <ArrowRight className="ml-3 w-7 h-7" />
             </button>
             
@@ -76,7 +76,7 @@ const OfferSection: React.FC = () => {
         </div>
         
         <p className="text-gray-500 max-w-2xl mx-auto text-xs font-medium leading-relaxed">
-          Este é um produto de entrada da D4 Kingdom. Nosso objetivo é que você tenha seu primeiro grande resultado conosco para que possamos fazer negócios maiores no futuro.
+          Este é um treinamento de entrada da D4 Kingdom. Nosso objetivo é que você valide o processo e gere resultado rápido para que possamos subir de nível juntos em breve.
         </p>
       </div>
     </section>
