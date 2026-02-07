@@ -18,12 +18,12 @@ const Hero: React.FC = () => {
             Relato Estratégico Real
           </span>
           
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-black mb-10 leading-[1.1] tracking-tight max-w-5xl">
-            Eu fiz 40 mil reais em 5 dias — <span className="text-gradient">e você pode fazer muito mais.</span>
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-black mb-10 leading-[1.1] tracking-tight max-w-5xl">
+            Eu fiz 40 mil reais em 5 dias — <span className="text-gradient">criando liquidez no CPF sem depender da empresa.</span>
           </h1>
           
           <p className="text-lg md:text-xl text-gray-400 mb-12 leading-relaxed max-w-3xl">
-            Se você já construiu uma empresa, você tem um ativo valioso que a geração atual não está afim de construir, mas está super disposta a comprar: a sua experiência. Agora, é hora de entender como transformá-la em liquidez imediata para o seu CPF.
+            Se você já construiu um negócio, você possui um ativo que o mercado ignora: sua experiência real. Este é o relato de como transformei esse conhecimento em R$ 40 mil de liquidez direta para o meu CPF, através de um processo estratégico, lógico e replicável.
           </p>
           
           <div className="flex flex-col md:flex-row items-center justify-center gap-6 mb-16">
@@ -31,13 +31,13 @@ const Hero: React.FC = () => {
               onClick={scrollToOffer}
               className="bg-[#60F2E9] hover:bg-[#4de0d7] text-black font-black py-5 px-10 rounded-2xl flex items-center justify-center transition-all duration-300 transform hover:scale-[1.03] active:scale-95 btn-glow text-lg"
             >
-              Quero aprender a fazer 40.000 em 5 dias
+              Quero aprender o processo dos 40.000 em 5 dias
               <ArrowRight className="ml-2 w-6 h-6" />
             </button>
             
             <div className="flex items-center gap-2 text-[#60F2E9] text-[10px] font-bold tracking-widest uppercase opacity-80">
               <Lock className="w-4 h-4" />
-              <span>Sem compromisso, apenas clareza.</span>
+              <span>Relato Real. Sem promessas de ganho fácil.</span>
             </div>
           </div>
 
@@ -60,7 +60,7 @@ const Hero: React.FC = () => {
           
           <div className="mt-16 max-w-3xl">
             <p className="text-gray-400 text-lg leading-relaxed italic">
-              "Construir uma empresa no Brasil é para poucos. Se você gera empregos, receita e impacto, você faz parte de uma elite silenciosa. Mas muitas vezes, nessa jornada de sustentar o sonho de outros, o seu próprio CPF acaba ficando em segundo plano."
+              "Isso não é sobre crescimento desenfreado de CNPJ. É sobre a dignidade de quem construiu o negócio e agora decide que o próprio CPF deve colher os frutos dessa inteligência acumulada."
             </p>
           </div>
         </div>

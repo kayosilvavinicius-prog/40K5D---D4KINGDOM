@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { ShieldCheck, ArrowRight, Lock } from 'lucide-react';
+import { ShieldCheck, ArrowRight, Lock, AlertCircle, Calendar } from 'lucide-react';
 
 const OfferSection: React.FC = () => {
   return (
@@ -12,6 +12,24 @@ const OfferSection: React.FC = () => {
         <h3 className="text-4xl md:text-6xl font-black mb-12 tracking-tight">
           Tenha em mãos o mapa que gerou <span className="text-gradient">R$ 40k em 5 dias.</span>
         </h3>
+
+        {/* Rationalization & Anti-Scam Block */}
+        <div className="grid md:grid-cols-2 gap-6 mb-12 text-left">
+          <div className="p-6 bg-white/5 rounded-2xl border border-white/10 flex gap-4">
+            <AlertCircle className="w-6 h-6 text-[#60F2E9] shrink-0" />
+            <p className="text-sm text-gray-400 leading-relaxed">
+              <strong className="text-white block mb-1">Sem promessas vazias.</strong>
+              Isso não é renda extra ou fórmula mágica de internet. É um processo estratégico para empresários que já possuem estrada e querem criar liquidez pessoal com inteligência.
+            </p>
+          </div>
+          <div className="p-6 bg-white/5 rounded-2xl border border-white/10 flex gap-4">
+            <Calendar className="w-6 h-6 text-[#60F2E9] shrink-0" />
+            <p className="text-sm text-gray-400 leading-relaxed">
+              <strong className="text-white block mb-1">Por que 5 dias?</strong>
+              Este prazo representa o tempo exato de um ciclo tático de validação e oferta direta — sem depender de novos seguidores, anúncios complexos ou tráfego pago.
+            </p>
+          </div>
+        </div>
         
         <div className="bg-zinc-900 border-2 border-[#60F2E9]/20 rounded-[3rem] p-10 md:p-16 mb-10 shadow-2xl relative">
           <div className="mb-10">
@@ -25,6 +43,11 @@ const OfferSection: React.FC = () => {
           </div>
           
           <div className="flex flex-col items-center gap-6">
+            {/* Self-selection Phrase */}
+            <p className="text-gray-400 text-xs md:text-sm max-w-md leading-relaxed italic">
+              "Esse conteúdo não é para quem está começando do zero. É para quem já construiu uma empresa e agora quer proteger o próprio CPF e a família."
+            </p>
+
             <button className="w-full max-w-md bg-[#60F2E9] hover:bg-[#4de0d7] text-black font-black py-6 px-8 rounded-2xl flex items-center justify-center text-xl transition-all duration-300 transform hover:scale-[1.02] btn-glow">
               SIM, QUERO ACESSAR AGORA
               <ArrowRight className="ml-3 w-7 h-7" />
