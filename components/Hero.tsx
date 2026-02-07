@@ -24,7 +24,7 @@ const Hero: React.FC = () => {
           </h1>
           
           <p className="text-lg md:text-xl text-gray-400 mb-12 leading-relaxed max-w-3xl">
-            Isso não é uma promessa de resultado garantido, mas o relato estratégico de como utilizei minha expertise para gerar R$ 40.000 de liquidez direta no CPF. Um processo replicável para empresários que já construíram algo e agora precisam colher os frutos com inteligência.
+            Não é uma promessa de resultado garantido, é o relato estratégico real de como transformei expertise em 40.000 de liquidez direta no CPF. Um processo replicável para empresários que já possuem estrada.
           </p>
           
           <div className="flex flex-col md:flex-row items-center justify-center gap-6 mb-16">
@@ -38,7 +38,7 @@ const Hero: React.FC = () => {
             
             <div className="flex items-center gap-2 text-[#60F2E9] text-[10px] font-bold tracking-widest uppercase opacity-80">
               <Lock className="w-4 h-4" />
-              <span>Relato Real • Sem fórmulas mágicas</span>
+              <span>Processo Estratégico Replicável</span>
             </div>
           </div>
 
@@ -61,7 +61,7 @@ const Hero: React.FC = () => {
           
           <div className="mt-16 max-w-3xl">
             <p className="text-gray-400 text-lg leading-relaxed italic">
-              "Este conteúdo não é para quem está começando do zero. É para quem já construiu uma empresa e agora quer proteger o próprio CPF e a família."
+              "Isso não é para quem está começando do zero. É para quem já construiu uma empresa e agora quer proteger o próprio CPF e a família."
             </p>
           </div>
         </div>

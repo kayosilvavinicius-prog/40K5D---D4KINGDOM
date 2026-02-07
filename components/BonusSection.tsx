@@ -19,8 +19,8 @@ const BonusSection: React.FC = () => {
             <div className="absolute -inset-0.5 bg-gradient-to-r from-[#60F2E9] to-[#71ADFF] rounded-3xl blur opacity-10 group-hover:opacity-30 transition duration-1000"></div>
             <div className="relative bg-zinc-900 p-10 rounded-[2rem] border border-white/10 h-full flex flex-col transition-all duration-300 group-hover:border-[#60F2E9]/30">
               <Zap className="w-12 h-12 text-[#60F2E9] mb-8" />
-              <h3 className="text-2xl font-black mb-4 leading-tight">“3 formas mais rápidas e fáceis de fazer 40K”</h3>
-              <p className="text-gray-400 mb-8 flex-grow leading-relaxed">Um guia adaptável ao seu nicho específico, mostrando os caminhos de menor resistência para atingir sua meta de faturamento.</p>
+              <h3 className="text-2xl font-black mb-4 leading-tight">“3 formas mais rápidas e fáceis de fazer 40.000”</h3>
+              <p className="text-gray-400 mb-8 flex-grow leading-relaxed">Um guia adaptável ao seu nicho específico, mostrando os caminhos de menor resistência para atingir sua meta de faturamento no CPF.</p>
               <div className="mt-auto">
                 <p className="text-[#60F2E9] font-black text-lg">Valor: R$ 197,00</p>
                 <p className="text-gray-500 text-[10px] font-bold mt-1 uppercase tracking-widest">Incluso Gratuitamente</p>
