@@ -1,18 +1,18 @@
 
 import React, { useState } from 'react';
-import Hero from './components/Hero';
-import PainSection from './components/PainSection';
-import BeliefBreaker from './components/BeliefBreaker';
-import WhatYouWillLearn from './components/WhatYouWillLearn';
-import BonusSection from './components/BonusSection';
-import OfferSection from './components/OfferSection';
-import Guarantee from './components/Guarantee';
-import Testimonials from './components/Testimonials';
-import Authority from './components/Authority';
-import FAQ from './components/FAQ';
-import Footer from './components/Footer';
-import PrivacyPolicyModal from './components/PrivacyPolicyModal';
-import TermsOfUseModal from './components/TermsOfUseModal';
+import Hero from './components/Hero.tsx';
+import PainSection from './components/PainSection.tsx';
+import BeliefBreaker from './components/BeliefBreaker.tsx';
+import WhatYouWillLearn from './components/WhatYouWillLearn.tsx';
+import BonusSection from './components/BonusSection.tsx';
+import OfferSection from './components/OfferSection.tsx';
+import Guarantee from './components/Guarantee.tsx';
+import Testimonials from './components/Testimonials.tsx';
+import Authority from './components/Authority.tsx';
+import FAQ from './components/FAQ.tsx';
+import Footer from './components/Footer.tsx';
+import PrivacyPolicyModal from './components/PrivacyPolicyModal.tsx';
+import TermsOfUseModal from './components/TermsOfUseModal.tsx';
 
 const App: React.FC = () => {
   const [isPrivacyOpen, setIsPrivacyOpen] = useState(false);

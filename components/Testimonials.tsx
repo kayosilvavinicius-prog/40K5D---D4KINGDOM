@@ -95,6 +95,7 @@ const Testimonials: React.FC = () => {
                             className="w-full h-full object-cover"
                             controls
                             playsInline
+                            preload="metadata"
                           >
                             <source src={item.videoUrl} type="video/mp4" />
                             Seu navegador não suporta vídeos.
