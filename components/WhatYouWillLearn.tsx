@@ -17,7 +17,7 @@ const WhatYouWillLearn: React.FC = () => {
                 <PlayCircle className="w-8 h-8 text-[#60F2E9] shrink-0" />
                 <div>
                   <h4 className="font-bold text-lg mb-1">🎥 Aulas práticas e estratégicas</h4>
-                  <p className="text-gray-400 text-sm leading-relaxed">Vou abrir os bastidores de como gerei R$40k em 5 dias. Um relato prático focado em quem já tem expertise e precisa de liquidez pessoal.</p>
+                  <p className="text-gray-400 text-sm leading-relaxed">Vou abrir os bastidores de como gerei R$ 40.000 em 5 dias. Um relato prático focado em quem já tem expertise e precisa de liquidez pessoal.</p>
                 </div>
               </div>
               <div className="flex gap-4 p-6 bg-white/5 rounded-2xl border border-white/10">

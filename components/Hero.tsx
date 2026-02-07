@@ -19,11 +19,12 @@ const Hero: React.FC = () => {
           </span>
           
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-black mb-10 leading-[1.1] tracking-tight max-w-5xl">
-            Eu fiz 40 mil reais em 5 dias — <span className="text-gradient">criando liquidez no CPF sem depender da empresa.</span>
+            Eu fiz 40.000 em 5 dias — <br className="hidden md:block" />
+            <span className="text-gradient">criando liquidez no CPF sem depender da empresa.</span>
           </h1>
           
           <p className="text-lg md:text-xl text-gray-400 mb-12 leading-relaxed max-w-3xl">
-            Este não é um roteiro de ganhos garantidos, mas o relato estratégico de como utilizei minha expertise acumulada para gerar R$ 40 mil de liquidez direta no CPF. Um processo lógico, replicável e focado em empresários que já possuem estrada.
+            Isso não é uma promessa de resultado garantido, mas o relato estratégico de como utilizei minha expertise para gerar R$ 40.000 de liquidez direta no CPF. Um processo replicável para empresários que já construíram algo e agora precisam colher os frutos com inteligência.
           </p>
           
           <div className="flex flex-col md:flex-row items-center justify-center gap-6 mb-16">
@@ -31,13 +32,13 @@ const Hero: React.FC = () => {
               onClick={scrollToOffer}
               className="bg-[#60F2E9] hover:bg-[#4de0d7] text-black font-black py-5 px-10 rounded-2xl flex items-center justify-center transition-all duration-300 transform hover:scale-[1.03] active:scale-95 btn-glow text-lg"
             >
-              Acessar o processo dos 40.000 em 5 dias
+              Quero aprender o processo dos 40.000 em 5 dias
               <ArrowRight className="ml-2 w-6 h-6" />
             </button>
             
             <div className="flex items-center gap-2 text-[#60F2E9] text-[10px] font-bold tracking-widest uppercase opacity-80">
               <Lock className="w-4 h-4" />
-              <span>Processo Estratégico Real</span>
+              <span>Relato Real • Sem fórmulas mágicas</span>
             </div>
           </div>
 
@@ -60,7 +61,7 @@ const Hero: React.FC = () => {
           
           <div className="mt-16 max-w-3xl">
             <p className="text-gray-400 text-lg leading-relaxed italic">
-              "Isso não é sobre renda extra. É sobre transformar o ativo mais valioso que você já tem — sua inteligência — em liquidez pessoal imediata."
+              "Este conteúdo não é para quem está começando do zero. É para quem já construiu uma empresa e agora quer proteger o próprio CPF e a família."
             </p>
           </div>
         </div>
